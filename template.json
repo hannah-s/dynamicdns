@@ -1,0 +1,18 @@
+{
+    "Comment": "Update DNS record for MYHOSTNAME at CHANGETIME.",
+    "Changes": [
+        {
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+                "Name": "MYHOSTNAME",
+                "Type": "A",
+                "TTL": 300,
+                "ResourceRecords": [
+                    {
+                        "Value": "NEWIP"
+                    }
+                ]
+            }
+        }
+    ]
+}
