@@ -11,4 +11,4 @@ Must have: dnsutils (AKA bind-utils on some distros), [awscli](http://docs.aws.a
 # To-do
 
 * Add the TTL as a variable, rather than the 300 default I used.
-* Check if the user has a ~/.aws/config configured. Return an error if not. 
+* Create an IAM user that's JUST for DNS updates, without further access to other AWS instances.
